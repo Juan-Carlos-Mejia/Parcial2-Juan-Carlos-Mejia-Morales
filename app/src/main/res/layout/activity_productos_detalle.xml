@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4CF58"
+    tools:context=".ProductosDetalle">
+
+    <ImageView
+        android:id="@+id/imgProducto"
+        android:layout_width="370dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_photo_camera" />
+
+    <ImageView
+        android:id="@+id/suburImage"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/ic_upload_photo" />
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="214dp"
+        android:hint="@string/codigo"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="284dp"
+        android:hint="@string/descripcion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="354dp"
+        android:hint="@string/marca"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtPresen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="425dp"
+        android:hint="@string/presentacion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="495dp"
+        android:hint="@string/precio"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="565dp"
+        android:text="@string/guardar_productos" />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="625dp"
+        android:text="Mostrar Productos" />
+
+</RelativeLayout>

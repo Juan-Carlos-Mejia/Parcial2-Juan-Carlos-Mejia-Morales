@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inventario Estelar</string>
+    <string name="Buscar">Buscar Producto</string>
+    <string name="codigo">Codigo:</string>
+    <string name="descripcion">Descripcion:</string>
+    <string name="marca">Marca:</string>
+    <string name="presentacion">Presentacion:</string>
+    <string name="precio">Precio:</string>
+    <string name="guardar_productos">Guardar Productos</string>
+</resources>
